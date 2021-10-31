@@ -17,6 +17,8 @@
 		808D5635272CFC3F0099DD68 /* TableViewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808D5634272CFC3F0099DD68 /* TableViewAppTests.swift */; };
 		808D563F272CFC3F0099DD68 /* TableViewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808D563E272CFC3F0099DD68 /* TableViewAppUITests.swift */; };
 		808D5641272CFC3F0099DD68 /* TableViewAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808D5640272CFC3F0099DD68 /* TableViewAppUITestsLaunchTests.swift */; };
+		808D564E272CFE4C0099DD68 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808D564D272CFE4C0099DD68 /* TableViewController.swift */; };
+		808D5650272D024B0099DD68 /* AddListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808D564F272D024B0099DD68 /* AddListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		808D563A272CFC3F0099DD68 /* TableViewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		808D563E272CFC3F0099DD68 /* TableViewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAppUITests.swift; sourceTree = "<group>"; };
 		808D5640272CFC3F0099DD68 /* TableViewAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		808D564D272CFE4C0099DD68 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		808D564F272D024B0099DD68 /* AddListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				808D561C272CFC3E0099DD68 /* SceneDelegate.swift */,
 				808D561E272CFC3E0099DD68 /* ViewController.swift */,
 				808D5620272CFC3E0099DD68 /* Main.storyboard */,
+				808D564F272D024B0099DD68 /* AddListViewController.swift */,
+				808D564D272CFE4C0099DD68 /* TableViewController.swift */,
 				808D5626272CFC3F0099DD68 /* Assets.xcassets */,
 				808D5628272CFC3F0099DD68 /* LaunchScreen.storyboard */,
 				808D562B272CFC3F0099DD68 /* Info.plist */,
@@ -261,9 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				808D5650272D024B0099DD68 /* AddListViewController.swift in Sources */,
 				808D561F272CFC3E0099DD68 /* ViewController.swift in Sources */,
 				808D5625272CFC3E0099DD68 /* TableViewApp.xcdatamodeld in Sources */,
 				808D561B272CFC3E0099DD68 /* AppDelegate.swift in Sources */,
+				808D564E272CFE4C0099DD68 /* TableViewController.swift in Sources */,
 				808D561D272CFC3E0099DD68 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,7 +451,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W2BQ443478;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TableViewApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -471,7 +479,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W2BQ443478;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TableViewApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
